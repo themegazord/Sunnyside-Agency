@@ -414,6 +414,7 @@ footer {
     line-height: 25px;
     letter-spacing: -0.128571px;
     color: var(--primary-dark-moderate-cyan);
+    cursor: pointer;
 }
 
 .social_media{
