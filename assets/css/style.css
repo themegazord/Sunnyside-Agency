@@ -30,9 +30,14 @@ html {
 
 body {
     background: var(--cyan-project);
+
+}
+
+header {
     background-image: url('../img/image-header.jpg');
     background-repeat: no-repeat;
     background-size: 100vw;
+    height: 65vh;
 }
 
 main {
@@ -70,13 +75,13 @@ main {
     color: var(--neutral-white);
 }
 
-.list__navbar li:hover{
+.list__navbar li:hover {
     padding: .9rem;
     align-items: center;
     border-radius: 50px;
     color: var(--neutral-very-dark-desturated-blue);
     background: white;
-    transition: all 400ms ease ;
+    transition: all 400ms ease;
     cursor: pointer;
 }
 
@@ -98,7 +103,7 @@ main {
 }
 
 .img__arrow_down {
-    padding-top: 11rem;
+    padding-top: 14rem;
 }
 
 /*  First Section CSS  */
@@ -107,7 +112,6 @@ main {
     display: flex;
     flex-direction: row;
     width: 100vw;
-    padding-top: 25.6rem;
 }
 
 .description__fs {
@@ -417,7 +421,7 @@ footer {
     cursor: pointer;
 }
 
-.social_media{
+.social_media {
     display: flex;
     flex-direction: row;
     gap: 2rem;
