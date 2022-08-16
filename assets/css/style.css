@@ -77,6 +77,7 @@ main {
     color: var(--neutral-very-dark-desturated-blue);
     background: white;
     transition: all 400ms ease ;
+    cursor: pointer;
 }
 
 /*  Hero Section CSS  */
